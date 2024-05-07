@@ -14,3 +14,9 @@
   <li>llabs</li>
   <li>fabs</li>
 </ul>
+
+<p1>rands.c - implements the functions:</p1>
+<ul>
+  <li>srand</li>
+  <li>rand</li>
+</ul>
