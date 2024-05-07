@@ -17,7 +17,7 @@
     int atoi(const char *str);
     long atol(const char *str);
     long long atoll(const char *str);
-    double atof(const char *str);
+    //double atof(const char *str);
 
     int abs(int arg);
     long labs(long arg);
