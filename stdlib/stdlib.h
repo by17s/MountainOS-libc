@@ -27,6 +27,10 @@
     long long llabs(long long arg);
     double fabs(double arg);
 
+    // rands
+    void srand(unsigned long seed);
+    int rand();
+
     // sort and search
     void qsort(
         void *arr_ptr,
