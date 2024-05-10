@@ -18,5 +18,5 @@
 </ul>
 <h3>string.h</h3>
 <ul>
-  <li>NN</li>
+  <li>strlen</li>
 </ul>
