@@ -4,7 +4,7 @@
     #define NULL 0
 
     // TYPES
-    typedef unsigned int size_t;
+    typedef unsigned long size_t;
     // divs
     typedef struct {
         int quot, rem;
