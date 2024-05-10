@@ -33,4 +33,5 @@
 
     // sort and search
     void qsort(void* arr, unsigned element_count, unsigned element_size, int (*comparator)(void*, void*));
+    void* bsearch(void* key, void* arr, unsigned element_count, unsigned element_size, int (*comparator)(void*, void*));
 #endif /* MOUNTAIN__OS__STDLIB__H__ */
