@@ -8,7 +8,7 @@
 void qsort(
         void *arr_ptr,
         size_t arr_len,
-        size_t elem_len_in_bytes,
+        size_t element_size,
         int (*comparator)(const void*, const void*)
     ) {
         size_t i, max_depth = 0;
@@ -17,33 +17,31 @@ void qsort(
         for (i = arr_len; i > 0; i >>= 1) max_depth++;
         max_depth *= 2;
 
-        switch (elem_len_in_bytes) {
+        switch (element_size) {
             case TYPE_BYTE: swap_type = TYPE_BYTE; break;
             case TYPE_INT:  swap_type = TYPE_INT;  break;
             case TYPE_LONG: swap_type = TYPE_LONG; break;
         }
     }
 
-void* bsearch(const void* key, 
-              const void* base0, 
-              size_t nmemb, 
-              size_t size, 
-              int (*comparator)(const void*, const void*)) {
-                const char* base = base0;
-                size_t lim;
-                int cmp;
-                const void* ptr;
+void* bsearch(void* key, void* arr, unsigned element_count, unsigned element_size, int (*comparator)(void*, void*)) {
+  while (ecount) {
+    unsigned mid = element_count >> 1;
+    char* p = (char*)arr + mid * element_size;
+    int compare = comparator(key, p);
 
-                for (lim = nmemb; lim != 0; lim >>= 1) {
-                    ptr = base + (lim >> 1) * size;
-                    cmp = comparator(key, ptr);
-                    
-                    if (cmp == 0) {
-                        return ((void*)ptr);
-                    } else if (cmp > 0) {
-                        base = (char*)ptr + size;
-                        lim--;
-                    }
-                }
-        return NULL;
+    // не соотвествует положительному
+    if (!compare) {
+      return p;
+    }
+    else if (t < 0) {
+      element_count = mid;
+    }
+    else {
+      base = p + element_size;
+      element_count -= mid + 1;
+    }
+  }
+
+  return 0;
 }
