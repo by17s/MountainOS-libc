@@ -20,3 +20,10 @@
   <li>srand</li>
   <li>rand</li>
 </ul>
+
+<p1>sort_and_search.c - implements the functions:</p1>
+<ul>
+  <li>bsearch</li>
+  <li>qsort</li>
+</ul>
+
