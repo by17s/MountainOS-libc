@@ -64,5 +64,5 @@ void* bsearch(void* key, void* arr, unsigned element_count, unsigned element_siz
     }
   }
 
-  return 0;
+  return NULL;
 }
