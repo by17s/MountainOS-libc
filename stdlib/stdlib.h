@@ -32,10 +32,5 @@
     int rand();
 
     // sort and search
-    void qsort(
-        void *arr_ptr,
-        size_t arr_len,
-        size_t elem_len_in_bytes,
-        int (*comparator)( const void*, const void*)
-    );
+    void qsort(void* arr, unsigned element_count, unsigned element_size, int (*comparator)(void*, void*));
 #endif /* MOUNTAIN__OS__STDLIB__H__ */
