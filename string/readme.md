@@ -3,6 +3,10 @@
 <p1>string_base:</p1>
 <ul>
   <li>strlen</li>
+  <li>strcpy</li>
+  <li>strncpy</li>
+  <li>strcmp</li>
+  <li>strncmp</li>
 </ul>
 
 
