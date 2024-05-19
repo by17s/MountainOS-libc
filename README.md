@@ -23,4 +23,6 @@
   <li>strncpy</li>
   <li>strcmp</li>
   <li>strncmp</li>
+  <li>strchr</li>
+  <li>strrchr</li>
 </ul>
