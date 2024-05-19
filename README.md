@@ -25,4 +25,5 @@
   <li>strncmp</li>
   <li>strchr</li>
   <li>strrchr</li>
+  <li>memcpy</li>
 </ul>
