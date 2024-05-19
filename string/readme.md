@@ -11,4 +11,10 @@
   <li>strrchr</li>
 </ul>
 
+<p1>mem_base:</p1>
+<ul>
+  <li>memcpy</li>
+</ul>
+
+
 
