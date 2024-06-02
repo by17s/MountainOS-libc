@@ -37,6 +37,18 @@ int strncmp(const char* str1, const char* str2, size_t len) {
     return 0;
 }
 
+void strcat(char* dest, const char* src) {
+    while (*dest) dest++;
+    
+    while (*src) {
+        *dest = *src;
+        dest++;
+        src++;
+    }
+    
+    *dest = '\0';
+}
+
 char* strchr(const char* s, int c) {
     for (int i = 0; s[i] != '\0'; i++) if (s[i] == c) return s;
 
