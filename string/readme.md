@@ -7,6 +7,7 @@
   <li>strncpy</li>
   <li>strcmp</li>
   <li>strncmp</li>
+  <li>strcat</li>
   <li>strchr</li>
   <li>strrchr</li>
 </ul>
@@ -14,6 +15,7 @@
 <p1>mem_base:</p1>
 <ul>
   <li>memcpy</li>
+  <li>memmove</li>
 </ul>
 
 
