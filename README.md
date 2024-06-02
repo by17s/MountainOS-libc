@@ -23,7 +23,9 @@
   <li>strncpy</li>
   <li>strcmp</li>
   <li>strncmp</li>
+  <li>strcat</li>
   <li>strchr</li>
   <li>strrchr</li>
   <li>memcpy</li>
+  <li>memmove</li>
 </ul>
