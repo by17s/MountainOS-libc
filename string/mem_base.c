@@ -16,3 +16,10 @@ void* memmove(void* dest, const void* src, size_t n) {
 
     for (int i = 0; i < n; i++) dest_i[i] = src_i[i];
 }
+
+void* memset(char* dest, char value, size_t size) {
+    for (int i = 0; i <= size; i++) {
+        *dest = value;
+        dest++;
+    }
+}
