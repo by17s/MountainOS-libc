@@ -29,4 +29,5 @@
   <li>memcpy</li>
   <li>memmove</li>
   <li>memset</li>
+  <li>memcmp</li>
 </ul>
