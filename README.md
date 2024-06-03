@@ -28,4 +28,5 @@
   <li>strrchr</li>
   <li>memcpy</li>
   <li>memmove</li>
+  <li>memset</li>
 </ul>
