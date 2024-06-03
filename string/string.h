@@ -16,8 +16,8 @@ char* strrchr(const char* s, int c);
 
 void* memcpy(void* dest, const void* src, size_t n);
 void* memmove(void* dest, const void* src, size_t n);
-
 void* memset(char* dest, char value, size_t size);
+
 int memcmp(const char* s1, const char* s2, size_t n);
 
 #endif /*MOUNTAIN__OS__STRING__H__*/
