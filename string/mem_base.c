@@ -23,3 +23,8 @@ void* memset(char* dest, char value, size_t size) {
         dest++;
     }
 }
+
+int memcmp(const char* s1, const char* s2, size_t n) {
+    for (int i = 0; i <= n; i++) 
+        if (s1[i] != s2[i]) return s1[i] - s2[i];
+}
