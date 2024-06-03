@@ -16,6 +16,7 @@
 <ul>
   <li>memcpy</li>
   <li>memmove</li>
+  <li>memset</li>
 </ul>
 
 
