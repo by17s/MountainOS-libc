@@ -1,6 +1,8 @@
 #ifndef MOUNTAIN__OS__STRING__H__
 #define MOUNTAIN__OS__STRING__H__
 
+typedef unsigned int size_t;
+
 size_t strlen(const char* str);
 
 char* strcpy(char* to_here, const char* from_here);
