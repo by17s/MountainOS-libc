@@ -3,4 +3,6 @@
 <p1>mos.c - implements the functions:</p1>
 <ul>
   <li><strong>exit</strong> - This function terminates the program with the code you write in the argument <b>code</b>. <i>exit(3) - exit the program with code 3</i></li>
+  <li><strong>fork</strong> - </li>
+  <li><strong>read</strong> - </li>
 </ul>
